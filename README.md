@@ -3,7 +3,7 @@
 
 ### Test Functions
 
-<img src='/Imgs/Ackley's function.png'>
+<img src='/Imgs/A_F.png'>
 <img src='/Imgs/Pasted Graphic.png'>
 
 
@@ -12,7 +12,7 @@
 <img src='/Imgs/Func 1 [Sphere function].png'>
 <img src='/Imgs/Func 7 [Noncontinuous Rastrigin's function].png'>
 
-###CLPSO
+### CLPSO
 
 <img src='/Imgs/Func_1 [Sphere function]W0.8.png'>
 <img src='/Imgs/unc_5 [Wei.png'>
