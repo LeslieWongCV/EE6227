@@ -10,6 +10,7 @@ import numpy as np
 from math import *
 import random
 
+
 KILL_PARAM = 1.0
 INIT_POPU = [-0.5, 0, 0.5, 1.0, 1.5, 1.7]
 POPU = []
@@ -77,7 +78,7 @@ def kill_indiv(y_in):
     return new_pop
 
 
-def go_plot():
+def go_plot(X, Y, POPU, SCORE):
     plt.figure()
     plt.title("Generic_Algorithm")
     plt.plot(X, Y)
@@ -96,7 +97,7 @@ for i in INIT_POPU:
 
 SCORE = enco_f(POPU)
 
-go_plot()
+go_plot(X, Y, POPU, SCORE)
 
 _ = 1 + 1
 
@@ -110,11 +111,11 @@ for i in range(ITERATION):
 
     SCORE = enco_f(POPU)
 
-    go_plot()
+    go_plot(X, Y, POPU, SCORE)
 _ = 1 + 1
 POPU = kill_indiv(SCORE)
 SCORE = enco_f(POPU)
-go_plot()
+go_plot(X, Y, POPU, SCORE)
 
 _ = 1 + 1
 

@@ -21,9 +21,6 @@ D = 5
 NP = 1000
 W = 0.729
 ITER = 10000
-
-# C1 = 0.4
-# C2 = 0.4
 V = np.zeros((NP, D))
 V_LOW = -5.12 + 3.12
 V_UP = 5.12
@@ -31,12 +28,12 @@ xmin1 = [-100, -2.048, -32.768, -600, -5.12, -5.12, -500, -0.5, -2.048, -100, -1
 xmax1 = [-x for x in xmin1]
 xmin1 = np.array(xmin1)
 xmax1 = np.array(xmax1)
-
 h = []
 ft = []
 std =[]
 v_plot = []
 p_best_plot = []
+
 
 def CLPSO(popu, v, W, C1, C2):
 
@@ -52,7 +49,7 @@ def CLPSO(popu, v, W, C1, C2):
     v = np.clip(v, V_LOW, V_UP)
     popu += v
 
-    return popu , v
+    return popu, v
 
 
 popu, popu_ft = Problems.init_popu(NP, D, P, V_UP, V_LOW)
@@ -133,7 +130,6 @@ plt.title('-Function{}-p_best_change mean'.format(P))
 plt.plot(x_, p_best_plot)
 plt.show()
 
-_ = 1 + 1   # changed
-
+_ = 1 + 1
 
 
