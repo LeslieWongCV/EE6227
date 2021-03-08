@@ -8,9 +8,9 @@
 
 
 ### PSO
-1
+
 <img src='/Imgs/Func 1 [Sphere function].png'>
-<img src='/Imgs/Func 7 [Noncontinuous Rastrigin's function].png'>
+<img src='/Imgs/Func7.png'>
 
 ### CLPSO
 
