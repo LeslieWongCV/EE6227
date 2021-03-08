@@ -1,11 +1,18 @@
 # EE6227
- 
-<img src='/Imgs/img0.png'>
-<img src='/Imgs/img1.png'>
-<img src='/Imgs/img2.png'>
-<img src='/Imgs/img3.png'>
-<img src='/Imgs/img4.png'>
-<img src='/Imgs/img5.png'>
-<img src='/Imgs/img6.png'>
-<img src='/Imgs/img7.png'>
-<img src='/Imgs/img8.png'>
+## Assignment 1
+
+### Test Functions
+
+<img src='/Imgs/Ackley's function.png'>
+<img src='/Imgs/Pasted Graphic.png'>
+
+
+### PSO
+1
+<img src='/Imgs/Func 1 [Sphere function].png'>
+<img src='/Imgs/Func 7 [Noncontinuous Rastrigin's function].png'>
+
+###CLPSO
+
+<img src='/Imgs/Func_1 [Sphere function]W0.8.png'>
+<img src='/Imgs/unc_5 [Wei.png'>
