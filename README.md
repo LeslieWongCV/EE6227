@@ -1,11 +1,13 @@
 # EE6227
 ## Assignment 1
+In this assignment, we compared several algorithms including: Differential Evolution, Self-Adaptive DE, Particle Swarm Optimization, Comprehensive Learning Particle Swarm Optimizer. We also verify the different hyper parameters. We found that CLPSO has a outstanding performance. Clearly, the results are related to the ω. Under ω = 0.85, CLPSO gives the better performance. In addition, PSO gives the best performance on the Function 1, 2, 4 and 9, 10. CLPSO has the best presentation on the leftover test functions. 
+
 ### Setup on which the code was tested
 - python==3.6
 - numpy==1.19.2 
 
 
-In this assignment, we compared several algorithms including: Differential Evolution, Self-Adaptive DE, Particle Swarm Optimization, Comprehensive Learning Particle Swarm Optimizer. We also verify the different hyper parameters. We found that CLPSO has a outstanding performance. Clearly, the results are related to the ω. Under ω = 0.85, CLPSO gives the better performance. In addition, PSO gives the best performance on the Function 1, 2, 4 and 9, 10. CLPSO has the best presentation on the leftover test functions. 
+
 ### Test Functions
 
 <img src='/Imgs/A_F.png'>
